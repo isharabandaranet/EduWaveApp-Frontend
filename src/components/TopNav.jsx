@@ -15,15 +15,15 @@ const TopNav = () => {
         <div className="cursor-pointer" onClick={() => navigate('/')}>
           <EduWaveLogo />
         </div>
-
+        {/* 
         <div className="hidden md:flex bg-gray-100 p-1 rounded-xl">
           <button
             onClick={() => navigate('/')}
             className={`flex items-center gap-2 px-6 py-2 rounded-lg font-bold text-sm transition-all ${path === '/' || path.startsWith('/module') ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-500 hover:text-gray-700'}`}
           >
-            <BookIcon /> Modules {/* <--- මෙතන ඉමෝජි එක වෙනුවට BookIcon එක දැම්මා */}
+            <BookIcon /> Modules 
           </button>
-          
+
           <button
             onClick={() => navigate('/planner')}
             className={`flex items-center gap-2 px-6 py-2 rounded-lg font-bold text-sm transition-all ${path === '/planner' ? 'bg-white text-purple-600 shadow-sm' : 'text-gray-500 hover:text-gray-700'}`}
@@ -38,6 +38,7 @@ const TopNav = () => {
             <UsersIcon /> Community
           </button>
         </div>
+        */}
       </div>
 
       <div className="flex items-center gap-4">
